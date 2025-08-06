@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/output-14bcecdc01b444d7.css" integrity="sha384-hmgA8iq5my4nFZNvib5VAf/W9QytR4bnsikP0dzimm3u343mWwssIPE+f8pWAKgs"/>
+    
+    <meta charset="utf-8" />
+    <title>fredfull</title>
+  <link rel="modulepreload" href="/fredfull-e47e6a3e259ea5d1.js" crossorigin="anonymous" integrity="sha384-xJRSAmjw64fg/eaGrfIl3eobMtGwlllwkSpdQGeEW2uq7Cajp1zSTVrvrh27FDgu"><link rel="preload" href="/fredfull-e47e6a3e259ea5d1_bg.wasm" crossorigin="anonymous" integrity="sha384-QJzqfuCJTpmJMgtlhrxUvw/ijM0GKI/u9Jbke1WAIB4Z+CdPuKnt6X4HQ7clWarZ" as="fetch" type="application/wasm"></head>
+  <body class="bg-amber-50">
+<script type="module">
+import init, * as bindings from '/fredfull-e47e6a3e259ea5d1.js';
+const wasm = await init({ module_or_path: '/fredfull-e47e6a3e259ea5d1_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>

@@ -137,10 +137,10 @@ title = "Farlig midtsommer"
 format = "Bok"
 
 [[readings]]
-author="J. K. Rowling"
-date="2026-01-10"
-title="Harry Potter og Mysteriekammeret"
-format="Høytlesing"
+author = "J. K. Rowling"
+date = "2026-01-10"
+title = "Harry Potter og Mysteriekammeret"
+format = "Høytlesing"
 
 [[readings]]
 author = "George R.R. Martin"
@@ -156,3 +156,17 @@ title = "The Sworn Sword"
 format = "Lydbok"
 notes = "Meire riddar-feelgood. Lest av Rijen Laine."
 
+[[readings]]
+author = "George R.R. Martin"
+date = "2026-01-24"
+title = "The Mystery Knight"
+format = "Lydbok"
+notes = "Endå meire riddar-feelgood. Lest av Rijen Laine. Finn den på YouTube"
+
+
+[[readings]]
+author = "Chuck Palahniuk"
+date = "2026-02-03"
+title = "Choke"
+format = "Bok"
+notes = "Om avhengighet. Og om å overgi seg? Tidlig totusentalls nihilsme."
